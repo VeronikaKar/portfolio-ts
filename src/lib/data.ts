@@ -65,7 +65,7 @@ export const projectsData = [
     description:
       "I started as a full-stack developer on my own projects for 6 month. ",
     tags: ["React",  "MongoDB", "Tailwind", "Prisma" "Next.js", "Node.js" "Redux", "SQL", "Framer"],
-    imageUrl: corpcommentImg,
+    imageUrl: fullstackdevImg,
   },
   {
     title: "rmtDev",
@@ -79,7 +79,7 @@ export const projectsData = [
     description:
       ".",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: ,
+    imageUrl: projectthemeImg,
   },
 ] as const;
 
