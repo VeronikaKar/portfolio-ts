@@ -1,10 +1,18 @@
-
-export const purge = ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'];
-export const darkMode = false;
-export const theme = {
-  extend: {},
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+    },
+  },
+  plugins: [],
+  darkMode: "class",
 };
-export const variants = {
-  extend: {},
-};
-export const plugins = [];
